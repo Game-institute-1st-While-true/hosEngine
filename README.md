@@ -21,15 +21,21 @@ This is the graduation project of the 1st While (true) Team of Game institute.
 #### 1. clone this repository onto your local drive
 
 #### 2. FBX SDK install
-> https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-2
+> https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-2  
+> download FBX SDK 2020.2 vs2019 and install  
+> copy "FBX SDK Directory/2020.2/include" to "hosEngine/Extern/Inc"  
+> copy "FBX SDK Directory/2020.2/lib/vs2019/x64/debug" to "hosEngine/Extern/Lib"  
+> > change name libfbxsdk-md.lib -> libfbxsdk_x64D.lib  
+> > change name libxml2-md.lib -> libxml2_x64D.lib  
+> > change name zlib-md.lib -> zlib_x64D.lib  
+>
+> copy "FBX SDK Directory/2020.2/lib/vs2019/x64/release" to "hosEngine/Extern/Lib"  
+> > change name libfbxsdk-md.lib -> libfbxsdk_x64R.lib  
+> > change name libxml2-md.lib -> libxml2_x64R.lib  
+> > change name zlib-md.lib -> zlib_x64R.lib  
 
-#### 3. flatbuffers install using vcpkg
-> https://github.com/microsoft/vcpkg  
-> 1. install vcpkg  
-> 2. run cmd and cd "vcpkgPath"  
-> 3. vcpkg install flatbuffers:x64-windows  
-> 4. vcpkg integrate install  
+#### 3. open Build/hosEngine.sln
 
-#### 4. Build the hosEditor project in the hosEngine.sln
+#### 4. Build hosEditor and hosClient
 
 ## Documentation
