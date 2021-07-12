@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="network_model">
+      <UniqueIdentifier>{391b3815-98d2-491e-8661-00c86b2af8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\iocp">
+      <UniqueIdentifier>{6540631d-9932-4ff0-a844-02925554aad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{7ae410d4-6ea3-40ca-ba0c-b021ba6cd12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\iocp\common">
+      <UniqueIdentifier>{6b00ce77-7e0b-4f7f-a153-8176f4916d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\iocp\completionitem">
+      <UniqueIdentifier>{2586d9c3-db34-44aa-b108-e30b4da025f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\log">
+      <UniqueIdentifier>{caeef1d0-3713-4db1-a383-cbb3cebbc30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\common">
+      <UniqueIdentifier>{144e6c77-ce12-460f-8904-e0830190750c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\format">
+      <UniqueIdentifier>{ac5bc226-4fd3-4d61-a8bc-76f98eaff88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\math">
+      <UniqueIdentifier>{9013cb1b-f987-4710-bd0f-bf84ac273ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket">
+      <UniqueIdentifier>{b7a983c3-1f7f-4df6-a29b-bf464a265f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\common">
+      <UniqueIdentifier>{41731862-910a-4a6f-8b7d-b0c86add3813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\recv">
+      <UniqueIdentifier>{2f5f0a2d-6547-4780-82b1-d78c6643b427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\send">
+      <UniqueIdentifier>{46f5e099-07fa-4c13-9de2-0378eb11ba08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\db">
+      <UniqueIdentifier>{1f761825-c299-46fd-9930-5a9cb24ed4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\db\common">
+      <UniqueIdentifier>{40aceaca-495d-460d-a4d4-b2cd45070d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\db\common\interface">
+      <UniqueIdentifier>{5b410dbb-9715-46aa-84db-f79faeceee03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\db\manager">
+      <UniqueIdentifier>{54cabdb0-49fd-443c-8612-c7cd62930a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\db\ado">
+      <UniqueIdentifier>{6ec13522-a71f-4f57-8b91-bbc44db5092e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\db\ado\query">
+      <UniqueIdentifier>{16e8a40c-9230-4879-b0f2-e4f0e74d2f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\db\ado\query\recoard">
+      <UniqueIdentifier>{168f8522-6741-49c8-9114-168a9fae28f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\db\ado\query\command">
+      <UniqueIdentifier>{a45557c8-1390-49a6-a560-2ad3a16c324d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\common\clock">
+      <UniqueIdentifier>{16a48197-db74-471a-8852-862307614746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\common\random">
+      <UniqueIdentifier>{9448583e-01d9-4243-ade9-ad9a1a2add40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\common\singleton">
+      <UniqueIdentifier>{e909e8e8-9adb-48e9-a971-6dc739c766ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\common\func">
+      <UniqueIdentifier>{447cdba5-2e95-4be8-ba9c-76c6c3a588b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\tcp">
+      <UniqueIdentifier>{5c65227f-f78a-4e02-9db6-7f5be1aa8bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\tcp\socket">
+      <UniqueIdentifier>{a470303d-565b-4d6d-a171-20b77ff54aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\tcp\util">
+      <UniqueIdentifier>{aa6dda34-0f7c-409b-aad6-bc6bf7be49d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\tcp\mixed">
+      <UniqueIdentifier>{0c054509-4644-4166-aef8-3d18161c0e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\tcp\mixed\guest">
+      <UniqueIdentifier>{68b65def-6b8a-4fa0-8577-ffb3e7129244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\tcp\mixed\client">
+      <UniqueIdentifier>{4a4809bb-01d0-4cae-a6a8-4a884b81af93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\tcp\mixed\host">
+      <UniqueIdentifier>{22dbcaa1-9b06-417b-87eb-098968ea8cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network_model\socket\udp">
+      <UniqueIdentifier>{38aae2f7-2893-4c3c-b4cd-4ece7c41b700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\lock">
+      <UniqueIdentifier>{b8c6914d-78c5-4161-a94e-3a4ed989754d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\datastruct">
+      <UniqueIdentifier>{7c1abb54-6015-4636-947a-ca040a45ddca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\datastruct\behaivortree">
+      <UniqueIdentifier>{4c84d446-5748-4564-a835-bb84dbe9557d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\datastruct\chunk">
+      <UniqueIdentifier>{166921b0-e8d6-4139-bab9-16324b015ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\datastruct\message_queue">
+      <UniqueIdentifier>{4b52c50a-bf1a-4806-98b1-65bd41c7cc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\datastruct\message_queue\swap_queue">
+      <UniqueIdentifier>{90cd254f-0f31-43f8-9a80-574362d0fcf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\datastruct\message_queue\ringbuffer">
+      <UniqueIdentifier>{3a1e42c2-73e7-4c2d-9796-0687839c0c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\datastruct\ref_counter">
+      <UniqueIdentifier>{d56f2bf3-5829-4d7f-b4eb-630e77c51d0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AsyncTcpSend.cpp">
+      <Filter>network_model\socket\send</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTcpRecv.cpp">
+      <Filter>network_model\socket\recv</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpHostEX.cpp">
+      <Filter>network_model\socket\tcp\mixed\host</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient.cpp">
+      <Filter>network_model\socket\tcp\mixed\client</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClientEX.cpp">
+      <Filter>network_model\socket\tcp\mixed\client</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpGuestEX.cpp">
+      <Filter>network_model\socket\tcp\mixed\guest</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvItem.cpp">
+      <Filter>network_model\iocp\completionitem</Filter>
+    </ClCompile>
+    <ClCompile Include="SendItem.cpp">
+      <Filter>network_model\iocp\completionitem</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionItem.cpp">
+      <Filter>network_model\iocp\completionitem</Filter>
+    </ClCompile>
+    <ClCompile Include="GzzIOCP_EX.cpp">
+      <Filter>network_model\iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatUtils.cpp">
+      <Filter>util\format</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitoring.cpp">
+      <Filter>util\log</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>util\db\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Ado.cpp">
+      <Filter>util\db\ado</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>util\db\ado\query</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryCommand.cpp">
+      <Filter>util\db\ado\query\command</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryRecord.cpp">
+      <Filter>util\db\ado\query\recoard</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorTree.cpp">
+      <Filter>util\datastruct\behaivortree</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>util\datastruct\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>util\common\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>util\common\random</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocketEX.cpp">
+      <Filter>network_model\socket\tcp\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>util\datastruct\message_queue\ringbuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InterfacesHead.h">
+      <Filter>network_model\socket\common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetDefine.h">
+      <Filter>network_model\socket\common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetErrCode.h">
+      <Filter>network_model\socket\common</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTcpSend.h">
+      <Filter>network_model\socket\send</Filter>
+    </ClInclude>
+    <ClInclude Include="ISend.h">
+      <Filter>network_model\socket\send</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTcpRecv.h">
+      <Filter>network_model\socket\recv</Filter>
+    </ClInclude>
+    <ClInclude Include="IReceive.h">
+      <Filter>network_model\socket\recv</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpHostEX.h">
+      <Filter>network_model\socket\tcp\mixed\host</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient.h">
+      <Filter>network_model\socket\tcp\mixed\client</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClientEX.h">
+      <Filter>network_model\socket\tcp\mixed\client</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpGuestEX.h">
+      <Filter>network_model\socket\tcp\mixed\guest</Filter>
+    </ClInclude>
+    <ClInclude Include="CompletionItemDefine.h">
+      <Filter>network_model\iocp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrCode.h">
+      <Filter>network_model\iocp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ICompletionItem.h">
+      <Filter>network_model\iocp\completionitem</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvItem.h">
+      <Filter>network_model\iocp\completionitem</Filter>
+    </ClInclude>
+    <ClInclude Include="SendItem.h">
+      <Filter>network_model\iocp\completionitem</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionItem.h">
+      <Filter>network_model\iocp\completionitem</Filter>
+    </ClInclude>
+    <ClInclude Include="GzzIOCP_EX.h">
+      <Filter>network_model\iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="PConsole.h">
+      <Filter>util\log</Filter>
+    </ClInclude>
+    <ClInclude Include="PDebug.h">
+      <Filter>util\log</Filter>
+    </ClInclude>
+    <ClInclude Include="PFile.h">
+      <Filter>util\log</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatUtils.h">
+      <Filter>util\format</Filter>
+    </ClInclude>
+    <ClInclude Include="PListBox.h">
+      <Filter>util\log</Filter>
+    </ClInclude>
+    <ClInclude Include="GzzMath.h">
+      <Filter>util\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>util\log</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitoring.h">
+      <Filter>util\log</Filter>
+    </ClInclude>
+    <ClInclude Include="IoDefine.h">
+      <Filter>network_model\iocp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="IDataBase.h">
+      <Filter>util\db\common\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>util\db\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Ado.h">
+      <Filter>util\db\ado</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>util\db\ado\query</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryCommand.h">
+      <Filter>util\db\ado\query\command</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryRecord.h">
+      <Filter>util\db\ado\query\recoard</Filter>
+    </ClInclude>
+    <ClInclude Include="DBDefine.h">
+      <Filter>util\db\common</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorTree.h">
+      <Filter>util\datastruct\behaivortree</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>util\datastruct\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>util\common\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>util\common\random</Filter>
+    </ClInclude>
+    <ClInclude Include="RpcMap.h">
+      <Filter>util\common\func</Filter>
+    </ClInclude>
+    <ClInclude Include="RpcTable.h">
+      <Filter>util\common\func</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>util\common\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>util\datastruct\message_queue\ringbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.hpp">
+      <Filter>util\datastruct\message_queue\ringbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="LockedCQ.hpp">
+      <Filter>util\datastruct\message_queue\ringbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="LockFreeCQ.hpp">
+      <Filter>util\datastruct\message_queue\ringbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ISocket.h">
+      <Filter>network_model\socket\tcp\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="ISocketEX.h">
+      <Filter>network_model\socket\tcp\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocketEX.h">
+      <Filter>network_model\socket\tcp\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketInterfaceHelper.h">
+      <Filter>network_model\socket\tcp\util</Filter>
+    </ClInclude>
+    <ClInclude Include="JobQueue.h">
+      <Filter>util\datastruct\message_queue\swap_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>util\datastruct\message_queue\ringbuffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

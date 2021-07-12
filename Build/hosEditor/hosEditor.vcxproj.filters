@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ComponentView">
+      <UniqueIdentifier>{e84f78f2-8cf8-4c33-ab0e-6f572a2073bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneView">
+      <UniqueIdentifier>{faf54501-f664-427e-af88-a68a22982595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\Collision">
+      <UniqueIdentifier>{a9424d96-75e3-48dd-b4ad-374398da1250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\Audio">
+      <UniqueIdentifier>{eef22269-50ef-44a8-8d69-f409dcaa2cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\MeshRenderer">
+      <UniqueIdentifier>{aec9440c-5629-451b-8a4f-6087269f53d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\Camera">
+      <UniqueIdentifier>{a668420e-b8e6-46df-8985-052e42f858b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\Light">
+      <UniqueIdentifier>{0f583ea9-963e-4d73-9486-08e7cbd3d540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\Rigidbody">
+      <UniqueIdentifier>{b7689698-3106-4d4e-9d7b-652db40f8a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\Script">
+      <UniqueIdentifier>{2cf6c98e-b12a-4a20-a836-1d94cd944978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\Transform">
+      <UniqueIdentifier>{afafb32b-f843-43e7-9286-1393174c56ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\Animation">
+      <UniqueIdentifier>{50fef3ea-e2d2-4266-9433-4b493db2f864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\UI">
+      <UniqueIdentifier>{1f68440b-59a7-47ee-b6c2-fa35de8e61bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\UI\Text">
+      <UniqueIdentifier>{0179380f-bcf7-49b0-9f46-9b5a8a2df764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\UI\Image">
+      <UniqueIdentifier>{5ae526ac-af13-408c-b683-ca77073305fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InfoView">
+      <UniqueIdentifier>{0d21cb88-ca40-4f02-bcb8-76f197becebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\UI\Button">
+      <UniqueIdentifier>{ae7998c4-87f5-4068-b709-77e09bd9bc0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentView\UI\InputField">
+      <UniqueIdentifier>{dbf8f7b5-a86b-4bf3-8814-e3b2bed8a219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hosEditor">
+      <UniqueIdentifier>{0f60d7f5-3cea-4af6-9ead-ad49fd710d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorManager">
+      <UniqueIdentifier>{0f31a047-7026-4269-89df-78521ed57512}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>EditorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="hosEditor.h">
+      <Filter>hosEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="hosEditorDlg.h">
+      <Filter>hosEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneView.h">
+      <Filter>SceneView</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollisionView.h">
+      <Filter>ComponentView\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCollisionView.h">
+      <Filter>ComponentView\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollisionView.h">
+      <Filter>ComponentView\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioListenerView.h">
+      <Filter>ComponentView\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSourceView.h">
+      <Filter>ComponentView\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFilterView.h">
+      <Filter>ComponentView\MeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRendererView.h">
+      <Filter>ComponentView\MeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshRendererView.h">
+      <Filter>ComponentView\MeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraView.h">
+      <Filter>ComponentView\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LIghtView.h">
+      <Filter>ComponentView\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidbodyView.h">
+      <Filter>ComponentView\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptView.h">
+      <Filter>ComponentView\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformView.h">
+      <Filter>ComponentView\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationView.h">
+      <Filter>ComponentView\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImageView.h">
+      <Filter>ComponentView\UI\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextView.h">
+      <Filter>ComponentView\UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInfoView.h">
+      <Filter>InfoView</Filter>
+    </ClInclude>
+    <ClInclude Include="NavInfoView.h">
+      <Filter>InfoView</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButtonView.h">
+      <Filter>ComponentView\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInputFieldView.h">
+      <Filter>ComponentView\UI\InputField</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>EditorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="hosEditor.cpp">
+      <Filter>hosEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="hosEditorDlg.cpp">
+      <Filter>hosEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneView.cpp">
+      <Filter>SceneView</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollisionView.cpp">
+      <Filter>ComponentView\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleCollisionView.cpp">
+      <Filter>ComponentView\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollisionView.cpp">
+      <Filter>ComponentView\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioListenerView.cpp">
+      <Filter>ComponentView\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSourceView.cpp">
+      <Filter>ComponentView\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFilterView.cpp">
+      <Filter>ComponentView\MeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRendererView.cpp">
+      <Filter>ComponentView\MeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshRendererView.cpp">
+      <Filter>ComponentView\MeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraView.cpp">
+      <Filter>ComponentView\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="LIghtView.cpp">
+      <Filter>ComponentView\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidbodyView.cpp">
+      <Filter>ComponentView\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptView.cpp">
+      <Filter>ComponentView\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformView.cpp">
+      <Filter>ComponentView\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationView.cpp">
+      <Filter>ComponentView\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImageView.cpp">
+      <Filter>ComponentView\UI\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextView.cpp">
+      <Filter>ComponentView\UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInfoView.cpp">
+      <Filter>InfoView</Filter>
+    </ClCompile>
+    <ClCompile Include="NavInfoView.cpp">
+      <Filter>InfoView</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButtonView.cpp">
+      <Filter>ComponentView\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInputFieldView.cpp">
+      <Filter>ComponentView\UI\InputField</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hosEditor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\hosEditor.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\hosEditor.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

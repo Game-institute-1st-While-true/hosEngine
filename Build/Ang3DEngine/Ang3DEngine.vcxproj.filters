@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ETC">
+      <UniqueIdentifier>{083cc601-1d3a-4396-b258-c820a359584e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{a9d5d239-0bc9-48d6-91b0-e6613394992a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{6fbcfc29-15ef-4b87-83f2-872cc4e41ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\D3D11">
+      <UniqueIdentifier>{c531905a-18d0-4535-ab5f-d14f9e8e0aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\D3D11\Variable">
+      <UniqueIdentifier>{30732aaa-d79a-4892-8bb7-d2f96fe069a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\DebugConsole">
+      <UniqueIdentifier>{ac13ecb8-0ef8-4d19-8350-aa6a0bdb5eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Camera">
+      <UniqueIdentifier>{26a27c48-85b1-4f4f-8986-734f54204f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\D3D11\Debug">
+      <UniqueIdentifier>{f2999c64-6244-4e4a-833f-fa96f0623003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Buffer">
+      <UniqueIdentifier>{c3f93ce0-61bc-4a63-92fa-5400c037567b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\D3D11\Desc">
+      <UniqueIdentifier>{a32b387a-5439-4793-9c93-7f1cb39b1e75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Renderder.h">
+      <Filter>Renderer\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11.h">
+      <Filter>Renderer\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererDesc.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11VariableManager.h">
+      <Filter>Renderer\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11ConstBuffer.h">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Shader.h">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodFunc.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugConsole.h">
+      <Filter>ETC\DebugConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialBuffer.h">
+      <Filter>Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugGrid.h">
+      <Filter>Renderer\D3D11\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneBuffer.h">
+      <Filter>Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixBuffer.h">
+      <Filter>Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBuffer.h">
+      <Filter>Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Ang3DEngine.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDataType.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="TempDefine.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderQue.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Texture2D.h">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11ExtraRenderTarget.h">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenBuffer.h">
+      <Filter>Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Data.h">
+      <Filter>Renderer\D3D11\Desc</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11ShaderDesc.h">
+      <Filter>Renderer\D3D11\Desc</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11ShadowBuffer.h">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11ParticleSystem.h">
+      <Filter>Renderer\D3D11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3D11Renderder.cpp">
+      <Filter>Renderer\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11.cpp">
+      <Filter>Renderer\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererDesc.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11VariableManager.cpp">
+      <Filter>Renderer\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixBuffer.cpp">
+      <Filter>Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11ConstBuffer.cpp">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Shader.cpp">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugConsole.cpp">
+      <Filter>ETC\DebugConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialBuffer.cpp">
+      <Filter>Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugGrid.cpp">
+      <Filter>Renderer\D3D11\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneBuffer.cpp">
+      <Filter>Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBuffer.cpp">
+      <Filter>Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Ang3DEngine.cpp">
+      <Filter>ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexDataType.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderQue.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Texture2D.cpp">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11ExtraRenderTarget.cpp">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenBuffer.cpp">
+      <Filter>Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11ShadowBuffer.cpp">
+      <Filter>Renderer\D3D11\Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11ParticleSystem.cpp">
+      <Filter>Renderer\D3D11</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

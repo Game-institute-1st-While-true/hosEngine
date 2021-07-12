@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b808b1a9-e3d1-4e32-aa62-7f0d722dd344}</ProjectGuid>
+    <RootNamespace>GzzNet</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\Extern\Lib\</OutDir>
+    <TargetName>$(ProjectName)_$(PlatformTarget)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\Extern\Lib\</OutDir>
+    <TargetName>$(ProjectName)_$(PlatformTarget)R</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist $(OutDir)..\Inc\$(ProjectName) (mkdir $(OutDir)..\Inc\$(ProjectName))
+if exist .\*.h (copy /y .\*.h $(OutDir)..\Inc\$(ProjectName))
+if exist .\*.hpp (copy /y .\*.hpp $(OutDir)..\Inc\$(ProjectName))</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Ado.cpp" />
+    <ClCompile Include="AsyncTcpRecv.cpp" />
+    <ClCompile Include="AsyncTcpSend.cpp" />
+    <ClCompile Include="BehaviorTree.cpp" />
+    <ClCompile Include="Chunk.cpp" />
+    <ClCompile Include="DBManager.cpp" />
+    <ClCompile Include="FormatUtils.cpp" />
+    <ClCompile Include="GzzIOCP_EX.cpp" />
+    <ClCompile Include="Monitoring.cpp" />
+    <ClCompile Include="Query.cpp" />
+    <ClCompile Include="QueryCommand.cpp" />
+    <ClCompile Include="QueryRecord.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="RecvItem.cpp" />
+    <ClCompile Include="RingBuffer.cpp" />
+    <ClCompile Include="SendItem.cpp" />
+    <ClCompile Include="SessionItem.cpp" />
+    <ClCompile Include="TcpClient.cpp" />
+    <ClCompile Include="TcpClientEX.cpp" />
+    <ClCompile Include="TcpGuestEX.cpp" />
+    <ClCompile Include="TcpHostEX.cpp" />
+    <ClCompile Include="TcpSocketEX.cpp" />
+    <ClCompile Include="Clock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ado.h" />
+    <ClInclude Include="AsyncTcpRecv.h" />
+    <ClInclude Include="AsyncTcpSend.h" />
+    <ClInclude Include="BehaviorTree.h" />
+    <ClInclude Include="Chunk.h" />
+    <ClInclude Include="CompletionItemDefine.h" />
+    <ClInclude Include="DBDefine.h" />
+    <ClInclude Include="DBManager.h" />
+    <ClInclude Include="ErrCode.h" />
+    <ClInclude Include="FormatUtils.h" />
+    <ClInclude Include="IDataBase.h" />
+    <ClInclude Include="IoDefine.h" />
+    <ClInclude Include="GzzIOCP_EX.h" />
+    <ClInclude Include="GzzMath.h" />
+    <ClInclude Include="ICompletionItem.h" />
+    <ClInclude Include="InterfacesHead.h" />
+    <ClInclude Include="IReceive.h" />
+    <ClInclude Include="ISend.h" />
+    <ClInclude Include="ISocket.h" />
+    <ClInclude Include="ISocketEX.h" />
+    <ClInclude Include="JobQueue.h" />
+    <ClInclude Include="LockedCQ.hpp" />
+    <ClInclude Include="LockFreeCQ.hpp" />
+    <ClInclude Include="Monitoring.h" />
+    <ClInclude Include="NetDefine.h" />
+    <ClInclude Include="NetErrCode.h" />
+    <ClInclude Include="Note.h" />
+    <ClInclude Include="PConsole.h" />
+    <ClInclude Include="PDebug.h" />
+    <ClInclude Include="PFile.h" />
+    <ClInclude Include="Query.h" />
+    <ClInclude Include="QueryCommand.h" />
+    <ClInclude Include="QueryRecord.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="RecvItem.h" />
+    <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="CircularQueue.hpp" />
+    <ClInclude Include="RingBuffer.h" />
+    <ClInclude Include="RpcMap.h" />
+    <ClInclude Include="RpcTable.h" />
+    <ClInclude Include="SendItem.h" />
+    <ClInclude Include="SessionItem.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="SocketInterfaceHelper.h" />
+    <ClInclude Include="TcpClient.h" />
+    <ClInclude Include="TcpClientEX.h" />
+    <ClInclude Include="TcpGuestEX.h" />
+    <ClInclude Include="TcpHostEX.h" />
+    <ClInclude Include="TcpSocketEX.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="PListBox.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

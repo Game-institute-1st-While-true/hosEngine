@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{6a304977-e6ca-4a24-83af-9d9706e9a0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{899ecfcd-c018-45d5-a589-070344625dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{668dfed2-663a-4e5d-b21f-6411d675da22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\AudioClip">
+      <UniqueIdentifier>{e9c26e20-e49e-44ed-b4ac-40d3b06b0b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\PhysicMaterial">
+      <UniqueIdentifier>{8fa5739f-37c2-4e86-a5e2-47b40133caa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Interface">
+      <UniqueIdentifier>{e6cd7e9f-76fe-4d7b-ac39-2c4b2581666f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{a9cf681c-d57b-43d2-9019-a493935c20a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject">
+      <UniqueIdentifier>{92c32f0a-d1ff-404a-9f52-f56f97058d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component">
+      <UniqueIdentifier>{1b405f5e-59f1-4494-8255-91c85af52ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\AudioListener">
+      <UniqueIdentifier>{3611f6e8-c9bb-404e-bc3a-e8b6d72a040d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\AudioSource">
+      <UniqueIdentifier>{569251ab-4827-43e4-a10f-d6620a7d9573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Camera">
+      <UniqueIdentifier>{f4836fb0-8a6e-436b-aad0-c53b422440e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Collision">
+      <UniqueIdentifier>{e16c9ad6-704f-421e-a684-cc2e9cf9af55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Light">
+      <UniqueIdentifier>{0e0be395-0710-4387-bbbf-f08607920ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\MeshRenderer">
+      <UniqueIdentifier>{80579a2c-6431-4111-bc45-d4c269e8962a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Script">
+      <UniqueIdentifier>{33256778-98d3-4125-a75a-80af86649397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Transform">
+      <UniqueIdentifier>{99221e09-bedb-49ee-90a9-987b830d066b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Rigidbody">
+      <UniqueIdentifier>{4b3f3c7f-db21-41e7-8ec8-238c5cd2d96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Platform">
+      <UniqueIdentifier>{ab454f08-8847-46cc-bcb1-84738e8cacd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Platform\Window">
+      <UniqueIdentifier>{6b9e2aa6-c9e4-4b9f-ab07-8e80a0c60a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\PhysX">
+      <UniqueIdentifier>{4d30ec08-d54c-4348-b053-a65733368d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Mesh">
+      <UniqueIdentifier>{2ed174f9-d24c-41b7-872f-d46d3f785c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\UI_Text">
+      <UniqueIdentifier>{193fde8c-94ce-4133-a261-662fd87297e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\UI_Image">
+      <UniqueIdentifier>{28294ab1-e9cf-47a3-97bc-5953733a5bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\UI_Button">
+      <UniqueIdentifier>{933124fd-01ff-4cbd-a46f-745db7b3003b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Font">
+      <UniqueIdentifier>{ee187e51-24bf-4827-bf66-65cf3a26d44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sprite">
+      <UniqueIdentifier>{1e3c2a27-6173-4524-8930-af2ad5d51fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Client">
+      <UniqueIdentifier>{d50a0e1d-7303-418e-97e8-97bceafa5932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\0_Manager">
+      <UniqueIdentifier>{b8e3c090-de44-4fe4-bd2f-875ee420ba5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\MeshFilter">
+      <UniqueIdentifier>{6a6cb27c-ddb0-408e-9c7c-71affd1bdb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Material">
+      <UniqueIdentifier>{bc0e0ea9-ba62-4801-bace-e6f0c204cbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\FbxLoader">
+      <UniqueIdentifier>{bc786431-7fc4-47e7-85a2-86e3c53898e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\ModelPrefab">
+      <UniqueIdentifier>{5842720f-8a96-492f-a5f7-9f283f7bb6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Testbed">
+      <UniqueIdentifier>{9ec58b71-5800-4fec-8a29-aca2d164066b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation">
+      <UniqueIdentifier>{b3db4fd6-a4a1-470a-97ab-918f0f3bddb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{21ae9461-21de-4f43-896e-138a3f95cd2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Navigation">
+      <UniqueIdentifier>{97432283-34e9-4d05-b1c2-854a291f3797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Network">
+      <UniqueIdentifier>{150918c8-9acb-457c-9a1a-d398fc33b3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation\Maker">
+      <UniqueIdentifier>{c102535d-e1f9-40bf-ad70-b43f92e58145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation\Common">
+      <UniqueIdentifier>{456595b8-9253-4d86-9f28-455468e53f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Animation">
+      <UniqueIdentifier>{534f0e2d-5db0-4c83-95d3-0c78cb1a1f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Animation">
+      <UniqueIdentifier>{4bcd93ca-aa17-4382-8be8-222d986d4958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation\Query">
+      <UniqueIdentifier>{50fd3c93-69d8-4019-9c44-c67cf3175a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\UI_InputField">
+      <UniqueIdentifier>{30e53c4b-01d1-4213-9bcb-9fccb069c3f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioClip.cpp">
+      <Filter>Data\AudioClip</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicMaterial.cpp">
+      <Filter>Data\PhysicMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsInput.cpp">
+      <Filter>System\Platform\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsApplication.cpp">
+      <Filter>System\Platform\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioListener.cpp">
+      <Filter>Object\Component\AudioListener</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSource.cpp">
+      <Filter>Object\Component\AudioSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Object\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Object\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollision.cpp">
+      <Filter>Object\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleCollision.cpp">
+      <Filter>Object\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollision.cpp">
+      <Filter>Object\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Object\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Object\Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Object\Component\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX.cpp">
+      <Filter>System\PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Object\Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshCollision.cpp">
+      <Filter>Object\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Data\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Text.cpp">
+      <Filter>Object\Component\UI_Text</Filter>
+    </ClCompile>
+    <ClCompile Include="FontData.cpp">
+      <Filter>Data\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>Object\Component\UI_Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Data\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="COM_Client.cpp">
+      <Filter>System\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Data\0_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Data\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>Data\FbxLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationBundle.cpp">
+      <Filter>Data\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>Data\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyframe.cpp">
+      <Filter>Data\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneAnimation.cpp">
+      <Filter>Data\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelPrefab.cpp">
+      <Filter>Data\ModelPrefab</Filter>
+    </ClCompile>
+    <ClCompile Include="HContainer.cpp">
+      <Filter>Data\ModelPrefab</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Data\ModelPrefab</Filter>
+    </ClCompile>
+    <ClCompile Include="COM_Testbed.cpp">
+      <Filter>System\Testbed</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFilter.cpp">
+      <Filter>Object\Component\MeshFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Object\Component\MeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Networkcomponent.cpp">
+      <Filter>Object\Component\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkToken.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationMaker.cpp">
+      <Filter>Navigation\Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Object\Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshRenderer.cpp">
+      <Filter>Object\Component\MeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildContext.cpp">
+      <Filter>Navigation\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NavQuery.cpp">
+      <Filter>Navigation\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="NavAgent.cpp">
+      <Filter>Object\Component\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Object\Component\UI_Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_InputField.cpp">
+      <Filter>Object\Component\UI_InputField</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioClip.h">
+      <Filter>Data\AudioClip</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Callable.hpp">
+      <Filter>Object\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicMaterial.h">
+      <Filter>Data\PhysicMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCode.h">
+      <Filter>System\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInput.h">
+      <Filter>System\Platform\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsApplication.h">
+      <Filter>System\Platform\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioListener.h">
+      <Filter>Object\Component\AudioListener</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSource.h">
+      <Filter>Object\Component\AudioSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Object\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Object\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollision.h">
+      <Filter>Object\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCollision.h">
+      <Filter>Object\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollision.h">
+      <Filter>Object\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Object\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Object\Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Object\Component\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX.h">
+      <Filter>System\PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Object\Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshCollision.h">
+      <Filter>Object\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Text.h">
+      <Filter>Object\Component\UI_Text</Filter>
+    </ClInclude>
+    <ClInclude Include="FontData.h">
+      <Filter>Data\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Data\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Data\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="COM_Client.h">
+      <Filter>System\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Data\0_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Data\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoader.h">
+      <Filter>Data\FbxLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>Data\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationBundle.h">
+      <Filter>Data\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyframe.h">
+      <Filter>Data\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneAnimation.h">
+      <Filter>Data\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelPrefab.h">
+      <Filter>Data\ModelPrefab</Filter>
+    </ClInclude>
+    <ClInclude Include="HContainer.h">
+      <Filter>Data\ModelPrefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Data\ModelPrefab</Filter>
+    </ClInclude>
+    <ClInclude Include="COM_Testbed.h">
+      <Filter>System\Testbed</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFilter.h">
+      <Filter>Object\Component\MeshFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Object\Component\MeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Networkcomponent.h">
+      <Filter>Object\Component\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugConsolePaper.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetDefine.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkToken.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildContext.h">
+      <Filter>Navigation\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfTimer.h">
+      <Filter>Navigation\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationMaker.h">
+      <Filter>Navigation\Maker</Filter>
+    </ClInclude>
+    <ClInclude Include="NavDefine.h">
+      <Filter>Navigation\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Object\Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshRenderer.h">
+      <Filter>Object\Component\MeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="NavQuery.h">
+      <Filter>Navigation\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="NavAgent.h">
+      <Filter>Object\Component\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>Object\Component\UI_Image</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Object\Component\UI_Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_InputField.h">
+      <Filter>Object\Component\UI_InputField</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

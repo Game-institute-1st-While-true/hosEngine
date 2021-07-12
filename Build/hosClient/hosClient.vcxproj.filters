@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{59cb68fc-41b1-4fcf-9528-12e354a257ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{27d739e2-1ad7-4fab-a346-71dedd23ae67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ETC">
+      <UniqueIdentifier>{a867019f-0444-48f8-ad19-7a3ba8ead44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ETC\BehaviorTree">
+      <UniqueIdentifier>{ae37d1d7-30db-4828-adb8-45d326733521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\System">
+      <UniqueIdentifier>{bc8682a5-cab1-4bff-8112-5069904617c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\System\Factory">
+      <UniqueIdentifier>{47f4a0bb-883e-4b46-99a6-5e38709eb0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\System\SceneManagement">
+      <UniqueIdentifier>{a6e39356-8240-4600-a863-de38dc51600e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Sample">
+      <UniqueIdentifier>{50946652-dffd-412f-a227-0876947f44c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ScriptFactory.cpp">
+      <Filter>Script\System\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="BTNode.cpp">
+      <Filter>Script\ETC\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Script\System\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScript.cpp">
+      <Filter>Script\Sample</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ScriptFactory.h">
+      <Filter>Script\System\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="UserScriptList.h">
+      <Filter>Script\System\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="BTNode.h">
+      <Filter>Script\ETC\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Script\System\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScript.h">
+      <Filter>Script\Sample</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
