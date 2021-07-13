@@ -20,7 +20,7 @@ This is the graduation project of the 1st While (true) Team of Game institute.
 
 #### 1. clone this repository onto your local drive
 
-#### 2. FBX SDK install
+#### 2. FBX SDK install. becuase License
 > https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-2  
 > download FBX SDK 2020.2 vs2019 and install  
 > copy "FBX SDK Directory/2020.2/include" to "hosEngine/Extern/Inc"  
